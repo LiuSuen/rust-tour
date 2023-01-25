@@ -23,7 +23,7 @@ fn main() {
         printIn!("There is no integer solution for provided number: {} heads and {} legs.", heads, legs)
       }
       else{
-        printIn!("There are {} rabbits and {} chicken in the yard.", x,y)
+        printIn!("There are {} rabbits and {} chickens in the farm.", x,y)
       }
     }
     else{
