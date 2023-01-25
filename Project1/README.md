@@ -11,7 +11,7 @@ At this time, this is a command line program. Users can run it in the command li
 In complete version, users could play with it through link address.
 
 ## To do
-- To deplot on AWS Cloud Server
+- To deploy on AWS Cloud Server
 - To allow user to provide the input in the URL as the format URL/h-l.(h for head number and l for leg number)
 
 ## Reference
