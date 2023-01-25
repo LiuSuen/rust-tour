@@ -14,7 +14,7 @@ In complete version, users could play with it through link address.
 
 ## To do
 - To deploy on AWS Cloud Server
-- To allow user to provide the input in the URL as the format URL/h-l.(h for head number and l for leg number)
+- To allow user to provide the input in the URL as the format `URL/heads-legs`.(heads for head number and legs for leg number)
 
 ## Reference
 * [rust-cli-template](https://github.com/kbknapp/rust-cli-template)
