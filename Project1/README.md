@@ -14,7 +14,7 @@ In complete version, users could play with it through link address.
 1. Run it on Terminal
 - Type command: `cargo build --release`
 2. Run it in Docker
-- Type command: `docker build -f Dockerfile . -t rust-autocomplete:latest
+- Type command: `docker build -f Dockerfile . -t rust-autocomplete:latest`
 ## Examples
 1. Input the number of heads and legs
 ```Rust
