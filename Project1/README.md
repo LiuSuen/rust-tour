@@ -11,7 +11,22 @@ In the complete version of the program, we will deploy it on the cloud server an
 ## Usage
 At this time, this is a command line program. Users can run it in the command line and provide the number of heads and legs, then the program will return the number of each aniaml.
 In complete version, users could play with it through link address.
-
+1. Run it on Terminal
+- Type command: `cargo build --release`
+2. Run it in Docker
+- Type command: `docker build -f Dockerfile . -t rust-autocomplete:latest
+## Examples
+1. Input the number of heads and legs
+```Rust
+Please enter the number of heads:
+5
+Please enter the number of legs:
+16
+```
+2. Get the result
+```Rust
+There are 3 rabbits and 2 chickens in the farm.
+```
 ## To do
 - To deploy on AWS Cloud Server
 - To allow user to provide the input in the URL as the format `URL/heads-legs`.(heads for head number and legs for leg number)
