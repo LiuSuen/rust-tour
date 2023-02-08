@@ -1,0 +1,30 @@
+name: ImgtoASCII
+version: "0.1.0"
+about: 图片转字符画Convert an image to ASCII characters
+args:
+  - filename:
+      help: the complete file path
+      required: true
+  - width:
+      short: w
+      long: width
+      value_name: width
+      help: width of ASCII (default=80)
+      takes_value: true
+  - height:
+      short: h
+      long: height
+      value_name: height
+      help: height of ASCII (default change with width)
+      takes_value: true
+  - output:
+      short: o
+      long: output
+      value_name: outputfile
+      help: the output file
+      takes_value: true
+  - force:
+      short: f
+      long: force
+      help: replace existing output file without asking
+      requires: output
