@@ -1,4 +1,4 @@
-# rust-tour
+# Rust-Tour
 Exploratory rust projects. Recording the progress during learning rust.
 ## Projects
 ### Project 1
