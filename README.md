@@ -6,3 +6,5 @@ This is a simple program that solve the classic "Chicken and Rabbit Problem" in 
 ### Project 2
 Convert an image to ASCII characters.
 ### Project 3
+### Project 9
+To practice the use of Traits in Rust.
